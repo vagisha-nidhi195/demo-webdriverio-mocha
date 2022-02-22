@@ -13,7 +13,7 @@
     "commit": "cz",
     "report:generate": "npx allure generate --clean ./test-report/allure-result/ -o ./test-report/allure-report",
     "report:open": "npx allure open test-report/allure-report",
-    "tests:e2e": "npx del test-report && wdio ./dist/wdio.conf.js --spec ./dist/**/e2e/**/*.spec.js",
+    "tests:e2e": "npx del test-report && wdio ./dist/wdio.conf.js --spec ./dist/**/e2e/**/WindowsApp.spec.js",
     "tests:visualregression": "npx del test-report && wdio ./dist/wdio.conf.js --spec ./dist/**/visual-regression/**/*.spec.js"
   },
   "dependencies": {
