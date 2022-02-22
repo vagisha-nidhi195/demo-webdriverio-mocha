@@ -3,17 +3,32 @@ import { join } from 'path';
 exports.config = {
     runner: 'local',
     hostname: 'localhost',
-    port: 4444,
+    port: 4723,
     path: '/wd/hub',
-    specs: ['./dist/**/*.spec.js'],
+    specs: ['./dist/**/WindowsApp.spec.js'],
     maxInstances: 1,
-    capabilities: [
+    capabilities: 
         {
-            maxInstances: 1,
-            browserName: 'chrome',
+            root: {
+                capabilities: {
+                    platformName: 'windows',
+                    'appium:deviceName': 'WindowsPC',
+                    'appium:app': 'Root',
+                    'ms:experimental-webdriver': true,
+                }
+            },
+            pv: {
+                capabilities: {
+                    platformName: 'windows',
+                    'appium:deviceName': 'WindowsPC',
+                    'appium:app': 'AmazonVideo.PrimeVideo_pwbj9vvecjh7j!App',
+                    'ms:experimental-webdriver': true,
+                }
+            },
+
         },
-    ],
-    logLevel: 'trace',
+    
+    logLevel: 'debug',
     outputDir: './test-report/output',
     bail: 0,
     baseUrl: 'http://automationpractice.com',
@@ -23,41 +38,11 @@ exports.config = {
     framework: 'mocha',
     mochaOpts: {
         timeout: 30000,
+       // ui: 'tdd'
     },
     reporters: [
-        'spec',
-        [
-            'allure',
-            {
-                outputDir: './test-report/allure-result/',
-                disableWebdriverStepsReporting: true,
-                disableWebdriverScreenshotsReporting: false,
-            },
-        ],
     ],
     services: [
-        [
-            'image-comparison',
-            {
-                baselineFolder: join(process.cwd(), './screenshots/reference/'),
-                formatImageName: '{tag}-{logName}-{width}x{height}',
-                screenshotPath: join(process.cwd(), './screenshots/'),
-                savePerInstance: true,
-                autoSaveBaseline: true,
-                blockOutStatusBar: true,
-                blockOutToolBar: true,
-            },
-        ],
-        ['chromedriver'],
-        [
-            'performancetotal',
-            {
-                disableAppendToExistingFile: false,
-                performanceResultsFileName: `performance-results_${new Date().getTime()}`,
-                dropResultsFromFailedTest: false,
-                performanceResultsDirectory: 'test-report/performance-results',
-            },
-        ],
     ],
     autoCompileOpts: {
         autoCompile: true,
@@ -74,7 +59,7 @@ exports.config = {
     },
     afterTest: function (test: any, context: any, { error }: any) {
         if (error) {
-            browser.takeScreenshot();
+            //browser.takeScreenshot();
         }
     },
 };
