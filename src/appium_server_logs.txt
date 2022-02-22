@@ -1,0 +1,387 @@
+[info] [35m[HTTP][39m Waiting until the server is closed
+[info] [35m[HTTP][39m Received server close event
+[info] [35m[Appium][39m Welcome to Appium v1.22.0
+[info] [35m[Appium][39m Non-default server args:
+[info] [35m[Appium][39m   address: -- redacted
+[info] [35m[Appium][39m   nodeconfig: C:\Users\vagishn\AppiumNode.json
+[info] [35m[Appium][39m   relaxedSecurityEnabled: true
+[info] [35m[Appium][39m   allowInsecure: {
+[info] [35m[Appium][39m   }
+[info] [35m[Appium][39m   denyInsecure: {
+[info] [35m[Appium][39m   }
+[debug] [35m[Appium][39m Starting auto register thread for the grid. Will try to register every 10000 ms.
+[info] [35m[Appium][39m Appium REST http interface listener started on ip-redacted:4723[info] [35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session[39m
+[info] [35m[HTTP][39m [90m{"capabilities":{"alwaysMatch":{"platformName":"windows","appium:deviceName":"WindowsPC","appium:app":"Root","ms:experimental-webdriver":true},"firstMatch":[{}]},"desiredCapabilities":{"platformName":"windows","appium:deviceName":"WindowsPC","appium:app":"Root","ms:experimental-webdriver":true}}[39m
+[debug] [35m[W3C][39m Calling AppiumDriver.createSession() with args: [{"platformName":"windows","appium:deviceName":"WindowsPC","appium:app":"Root","ms:experimental-webdriver":true},null,{"alwaysMatch":{"platformName":"windows","appium:deviceName":"WindowsPC","appium:app":"Root","ms:experimental-webdriver":true},"firstMatch":[{}]}]
+[debug] [35m[BaseDriver][39m Event 'newSessionRequested' logged at 1645536491288 (13:28:11 GMT+0000 (Greenwich Mean Time))
+[info] [35m[Appium][39m Appium v1.22.0 creating new WindowsDriver (v1.19.1) session
+[info] [35m[Appium][39m Applying relaxed security to 'WindowsDriver' as per server command line argument. All insecure features will be enabled unless explicitly disabled by --deny-insecure
+[debug] [35m[BaseDriver][39m W3C capabilities and MJSONWP desired capabilities were provided
+[debug] [35m[BaseDriver][39m Creating session with W3C capabilities: {
+[debug] [35m[BaseDriver][39m   "alwaysMatch": {
+[debug] [35m[BaseDriver][39m     "platformName": "windows",
+[debug] [35m[BaseDriver][39m     "ms:experimental-webdriver": true,
+[debug] [35m[BaseDriver][39m     "appium:deviceName": "WindowsPC",
+[debug] [35m[BaseDriver][39m     "appium:app": "Root"
+[debug] [35m[BaseDriver][39m   },
+[debug] [35m[BaseDriver][39m   "firstMatch": [
+[debug] [35m[BaseDriver][39m     {}
+[debug] [35m[BaseDriver][39m   ]
+[debug] [35m[BaseDriver][39m }
+[info] [35m[BaseDriver][39m Session created with session id: 434b2b14-6c79-4fb6-8d63-03430ea05c0d
+[info] [35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session[39m
+[info] [35m[HTTP][39m [90m{"capabilities":{"alwaysMatch":{"platformName":"windows","appium:deviceName":"WindowsPC","appium:app":"AmazonVideo.PrimeVideo_pwbj9vvecjh7j!App","ms:experimental-webdriver":true},"firstMatch":[{}]},"desiredCapabilities":{"platformName":"windows","appium:deviceName":"WindowsPC","appium:app":"AmazonVideo.PrimeVideo_pwbj9vvecjh7j!App","ms:experimental-webdriver":true}}[39m
+[debug] [35m[W3C][39m Calling AppiumDriver.createSession() with args: [{"platformName":"windows","appium:deviceName":"WindowsPC","appium:app":"AmazonVideo.PrimeVideo_pwbj9vvecjh7j!App","ms:experimental-webdriver":true},null,{"alwaysMatch":{"platformName":"windows","appium:deviceName":"WindowsPC","appium:app":"AmazonVideo.PrimeVideo_pwbj9vvecjh7j!App","ms:experimental-webdriver":true},"firstMatch":[{}]}]
+[debug] [35m[BaseDriver][39m Event 'newSessionRequested' logged at 1645536491294 (13:28:11 GMT+0000 (Greenwich Mean Time))
+[info] [35m[Appium][39m Appium v1.22.0 creating new WindowsDriver (v1.19.1) session
+[info] [35m[Appium][39m Applying relaxed security to 'WindowsDriver' as per server command line argument. All insecure features will be enabled unless explicitly disabled by --deny-insecure
+[debug] [35m[BaseDriver][39m W3C capabilities and MJSONWP desired capabilities were provided
+[debug] [35m[BaseDriver][39m Creating session with W3C capabilities: {
+[debug] [35m[BaseDriver][39m   "alwaysMatch": {
+[debug] [35m[BaseDriver][39m     "platformName": "windows",
+[debug] [35m[BaseDriver][39m     "ms:experimental-webdriver": true,
+[debug] [35m[BaseDriver][39m     "appium:deviceName": "WindowsPC",
+[debug] [35m[BaseDriver][39m     "appium:app": "AmazonVideo.PrimeVideo_pwbj9vvecjh7j!App"
+[debug] [35m[BaseDriver][39m   },
+[debug] [35m[BaseDriver][39m   "firstMatch": [
+[debug] [35m[BaseDriver][39m     {}
+[debug] [35m[BaseDriver][39m   ]
+[debug] [35m[BaseDriver][39m }
+[info] [35m[BaseDriver][39m Session created with session id: 58339491-5613-4312-9747-d4bd03217687
+[warn] [35m[WinAppDriver][39m WinAppDriver exists, but the checksum did not match. Was it replaced manually?
+[warn] [35m[WinAppDriver][39m WinAppDriver exists, but the checksum did not match. Was it replaced manually?[info] [35m[WinAppDriver][39m Spawning 'C:\Program Files (x86)\Windows Application Driver\WinAppDriver.exe' with args: ["4725/wd/hub"]
+[debug] [35m[WD Proxy][39m Matched '/status' to command name 'getStatus'
+[debug] [35m[WD Proxy][39m Proxying [GET /status] to [GET http://127.0.0.1:4725/wd/hub/status] with no body[debug] [35m[WinAppDriver][39m Windows Application Driver listening for requests at: http://127.0.0.1:4725/wd/hub
+[debug] [35m[WinAppDriver][39m Press ENTER to exit.[info] [35m[WinAppDriver][39m Spawning 'C:\Program Files (x86)\Windows Application Driver\WinAppDriver.exe' with args: ["4725/wd/hub"]
+[debug] [35m[WD Proxy][39m Matched '/status' to command name 'getStatus'
+[debug] [35m[WD Proxy][39m Proxying [GET /status] to [GET http://127.0.0.1:4725/wd/hub/status] with no body
+[debug] [35m[WinAppDriver][39m ==========================================
+[debug] [35m[WinAppDriver][39m GET /wd/hub/status HTTP/1.1
+[debug] [35m[WinAppDriver][39m Accept: application/json, */*
+[debug] [35m[WinAppDriver][39m Connection: keep-alive
+[debug] [35m[WinAppDriver][39m Content-Type: application/json; charset=utf-8
+[debug] [35m[WinAppDriver][39m Host: 127.0.0.1:4725
+[debug] [35m[WinAppDriver][39m User-Agent: appium
+[debug] [35m[WD Proxy][39m Got response with status 200: {"build":{"revision":"2003","time":"Wed Aug 26 07:56:06 2020","version":"1.2.2009"},"os":{"arch":"amd64","name":"windows","version":"10.0.19042"}}
+[debug] [35m[WinAppDriver][39m Starting WinAppDriver session. Will timeout in '20000' ms.
+[debug] [35m[WD Proxy][39m Matched '/session' to command name 'createSession'
+[debug] [35m[WD Proxy][39m Proxying [POST /session] to [POST http://127.0.0.1:4725/wd/hub/session] with body: {"desiredCapabilities":{"platformName":"windows","ms:experimental-webdriver":true,"deviceName":"WindowsPC","app":"AmazonVideo.PrimeVideo_pwbj9vvecjh7j!App"}}
+[debug] [35m[WinAppDriver][39m HTTP/1.1 200 OK
+[debug] [35m[WinAppDriver][39m Content-Length: 146
+[debug] [35m[WinAppDriver][39m Content-Type: application/json
+[debug] [35m[WinAppDriver][39m 
+[debug] [35m[WinAppDriver][39m {"build":{"revision":"2003","time":"Wed Aug 26 07:56:06 2020","version":"1.2.2009"},"os":{"arch":"amd64","name":"windows","version":"10.0.19042"}}
+[debug] [35m[WinAppDriver][39m ==========================================
+[debug] [35m[WinAppDriver][39m POST /wd/hub/session HTTP/1.1
+[debug] [35m[WinAppDriver][39m Accept: application/json, */*
+[debug] [35m[WinAppDriver][39m Connection: keep-alive
+[debug] [35m[WinAppDriver][39m Content-Length: 157
+[debug] [35m[WinAppDriver][39m Content-Type: application/json; charset=utf-8
+[debug] [35m[WinAppDriver][39m Host: 127.0.0.1:4725
+[debug] [35m[WinAppDriver][39m User-Agent: appium
+[debug] [35m[WinAppDriver][39m 
+[debug] [35m[WinAppDriver][39m {"desiredCapabilities":{"platformName":"windows","ms:experimental-webdriver":true,"deviceName":"WindowsPC","app":"AmazonVideo.PrimeVideo_pwbj9vvecjh7j!App"}}
+[debug] [35m[WinAppDriver][39m ==========================================
+[debug] [35m[WinAppDriver][39m GET /wd/hub/status HTTP/1.1
+[debug] [35m[WinAppDriver][39m Accept: application/json, */*
+[debug] [35m[WinAppDriver][39m Connection: keep-alive
+[debug] [35m[WinAppDriver][39m Content-Type: application/json; charset=utf-8
+[debug] [35m[WinAppDriver][39m Host: 127.0.0.1:4725
+[debug] [35m[WinAppDriver][39m User-Agent: appium
+[debug] [35m[WinAppDriver][39m HTTP/1.1 200 OK
+[debug] [35m[WinAppDriver][39m Content-Length: 146
+[debug] [35m[WinAppDriver][39m Content-Type: application/json
+[debug] [35m[WinAppDriver][39m 
+[debug] [35m[WinAppDriver][39m {"build":{"revision":"2003","time":"Wed Aug 26 07:56:06 2020","version":"1.2.2009"},"os":{"arch":"amd64","name":"windows","version":"10.0.19042"}}
+[debug] [35m[WD Proxy][39m Got response with status 200: {"build":{"revision":"2003","time":"Wed Aug 26 07:56:06 2020","version":"1.2.2009"},"os":{"arch":"amd64","name":"windows","version":"10.0.19042"}}
+[debug] [35m[WinAppDriver][39m Starting WinAppDriver session. Will timeout in '20000' ms.
+[debug] [35m[WD Proxy][39m Matched '/session' to command name 'createSession'
+[debug] [35m[WD Proxy][39m Proxying [POST /session] to [POST http://127.0.0.1:4725/wd/hub/session] with body: {"desiredCapabilities":{"platformName":"windows","ms:experimental-webdriver":true,"deviceName":"WindowsPC","app":"Root"}}
+[debug] [35m[WinAppDriver][39m ==========================================
+[debug] [35m[WinAppDriver][39m POST /wd/hub/session HTTP/1.1
+[debug] [35m[WinAppDriver][39m Accept: application/json, */*
+[debug] [35m[WinAppDriver][39m Connection: keep-alive
+[debug] [35m[WinAppDriver][39m Content-Length: 121
+[debug] [35m[WinAppDriver][39m Content-Type: application/json; charset=utf-8
+[debug] [35m[WinAppDriver][39m Host: 127.0.0.1:4725
+[debug] [35m[WinAppDriver][39m User-Agent: appium
+[debug] [35m[WinAppDriver][39m Windows Application Driver listening for requests at: http://127.0.0.1:4725/wd/hub
+[debug] [35m[WinAppDriver][39m Address 'http://127.0.0.1:4725/wd/hub' is already in use
+[debug] [35m[WinAppDriver][39m 
+[debug] [35m[WinAppDriver][39m Failed to initialize: 0x80004005
+[info] [35m[WinAppDriver][39m WinAppDriver exited with code 2147500037, signal null[debug] [35m[WD Proxy][39m Got response with status 200: {"sessionId":"32313715-2575-40F4-B423-469DAB100CF4","status":0,"value":{"app":"Root","ms:experimental-webdriver":true,"platformName":"windows"}}
+[info] [35m[WD Proxy][39m Determined the downstream protocol as 'MJSONWP'
+[info] [35m[Appium][39m New WindowsDriver session created successfully, session 434b2b14-6c79-4fb6-8d63-03430ea05c0d added to master session list
+[debug] [35m[WinAppDriver][39m HTTP/1.1 200 OK
+[debug] [35m[WinAppDriver][39m Content-Length: 144
+[debug] [35m[WinAppDriver][39m Content-Type: application/json
+[debug] [35m[WinAppDriver][39m 
+[debug] [35m[WinAppDriver][39m {"sessionId":"32313715-2575-40F4-B423-469DAB100CF4","status":0,"value":{"app":"Root","ms:experimental-webdriver":true,"platformName":"windows"}}
+[debug] [35m[BaseDriver][39m Event 'newSessionStarted' logged at 1645536492544 (13:28:12 GMT+0000 (Greenwich Mean Time))
+[debug] [35m[W3C (434b2b14)][39m Cached the protocol value 'W3C' for the new session 434b2b14-6c79-4fb6-8d63-03430ea05c0d
+[debug] [35m[W3C (434b2b14)][39m Responding to client with driver.createSession() result: {"capabilities":{"platformName":"windows","ms:experimental-webdriver":true,"deviceName":"WindowsPC","app":"Root"}}
+[info] [35m[HTTP][39m [37m<-- POST /wd/hub/session [39m[32m200[39m [90m1257 ms - 175[39m
+[info] [35m[HTTP][39m [90m[39m[debug] [35m[Appium][39m Appium successfully registered with the the grid on http://ip-redacted:4415[debug] [35m[WinAppDriver][39m HTTP/1.1 200 OK
+[debug] [35m[WinAppDriver][39m Content-Length: 180
+[debug] [35m[WinAppDriver][39m Content-Type: application/json
+[debug] [35m[WinAppDriver][39m 
+[debug] [35m[WinAppDriver][39m {"sessionId":"CB99C1E5-A4E0-411B-87BE-1952A75CCB16","status":0,"value":{"app":"AmazonVideo.PrimeVideo_pwbj9vvecjh7j!App","ms:experimental-webdriver":true,"platformName":"windows"}}
+[debug] [35m[WD Proxy][39m Got response with status 200: {"sessionId":"CB99C1E5-A4E0-411B-87BE-1952A75CCB16","status":0,"value":{"app":"AmazonVideo.PrimeVideo_pwbj9vvecjh7j!App","ms:experimental-webdriver":true,"platformName":"windows"}}
+[info] [35m[WD Proxy][39m Determined the downstream protocol as 'MJSONWP'
+[info] [35m[Appium][39m New WindowsDriver session created successfully, session 58339491-5613-4312-9747-d4bd03217687 added to master session list
+[debug] [35m[BaseDriver][39m Event 'newSessionStarted' logged at 1645536499519 (13:28:19 GMT+0000 (Greenwich Mean Time))
+[debug] [35m[W3C (58339491)][39m Cached the protocol value 'W3C' for the new session 58339491-5613-4312-9747-d4bd03217687
+[debug] [35m[W3C (58339491)][39m Responding to client with driver.createSession() result: {"capabilities":{"platformName":"windows","ms:experimental-webdriver":true,"deviceName":"WindowsPC","app":"AmazonVideo.PrimeVideo_pwbj9vvecjh7j!App"}}
+[info] [35m[HTTP][39m [37m<-- POST /wd/hub/session [39m[32m200[39m [90m8226 ms - 211[39m
+[info] [35m[HTTP][39m [90m[39m[info] [35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/58339491-5613-4312-9747-d4bd03217687/window/rect[39m
+[info] [35m[HTTP][39m [90m{"x":null,"y":null,"width":1280,"height":720}[39m
+[info] [35m[W3C (58339491)][39m Driver proxy active, passing request on via HTTP proxy
+[debug] [35m[W3C (58339491)][39m Encountered internal error running command: Error: Could not proxy. Proxy error: 'POST /wd/hub/session/58339491-5613-4312-9747-d4bd03217687/window/rect' cannot be proxied to WinAppDriver server because its process is not running (probably crashed). Check the Appium log for more details
+[debug] [35m[W3C (58339491)][39m     at doJwpProxy (C:\Program Files\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\protocol\protocol.js:481:13)
+[debug] [35m[W3C (58339491)][39m     at asyncHandler (C:\Program Files\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\protocol\protocol.js:253:9)
+[info] [35m[HTTP][39m [37m<-- POST /wd/hub/session/58339491-5613-4312-9747-d4bd03217687/window/rect [39m[31m500[39m [90m25 ms - 1057[39m
+[info] [35m[HTTP][39m [90m[39m
+[info] [35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/434b2b14-6c79-4fb6-8d63-03430ea05c0d/window/rect[39m
+[info] [35m[HTTP][39m [90m{"x":null,"y":null,"width":1280,"height":720}[39m
+[info] [35m[W3C (434b2b14)][39m Driver proxy active, passing request on via HTTP proxy
+[debug] [35m[WD Proxy][39m Matched '/wd/hub/session/434b2b14-6c79-4fb6-8d63-03430ea05c0d/window/rect' to command name 'setWindowRect'
+[debug] [35m[WD Proxy][39m Proxying [POST /wd/hub/session/434b2b14-6c79-4fb6-8d63-03430ea05c0d/window/rect] to [POST http://127.0.0.1:4725/wd/hub/session/32313715-2575-40F4-B423-469DAB100CF4/window/rect] with body: {"x":null,"y":null,"width":1280,"height":720}
+[debug] [35m[WinAppDriver][39m ==========================================
+[debug] [35m[WinAppDriver][39m POST /wd/hub/session/32313715-2575-40F4-B423-469DAB100CF4/window/rect HTTP/1.1
+[debug] [35m[WinAppDriver][39m Accept: application/json, */*
+[debug] [35m[WinAppDriver][39m Connection: keep-alive
+[debug] [35m[WinAppDriver][39m Content-Length: 45
+[debug] [35m[WinAppDriver][39m Content-Type: application/json; charset=utf-8
+[debug] [35m[WinAppDriver][39m Host: 127.0.0.1:4725
+[debug] [35m[WinAppDriver][39m User-Agent: appium
+[debug] [35m[WinAppDriver][39m 
+[debug] [35m[WinAppDriver][39m {"x":null,"y":null,"width":1280,"height":720}
+[info] [35m[WD Proxy][39m Got response with status 404: {"status":9,"value":{"error":"unknown command","message":"Command not recognized: POST: /session/32313715-2575-40F4-B423-469DAB100CF4/window/rect"}}
+[debug] [35m[WinAppDriver][39m ### WinAppDriver::CommandHandler::Window::HandleCommandAsMidPoint - Command  is not recognized
+[debug] [35m[WinAppDriver][39m HTTP/1.1 404 Not Found
+[debug] [35m[WinAppDriver][39m Content-Length: 148
+[debug] [35m[WinAppDriver][39m Content-Type: application/json
+[debug] [35m[WinAppDriver][39m 
+[debug] [35m[WinAppDriver][39m {"status":9,"value":{"error":"unknown command","message":"Command not recognized: POST: /session/32313715-2575-40F4-B423-469DAB100CF4/window/rect"}}
+[debug] [35m[W3C][39m Matched W3C error code 'unknown command' to UnknownCommandError
+[info] [35m[HTTP][39m [37m<-- POST /wd/hub/session/434b2b14-6c79-4fb6-8d63-03430ea05c0d/window/rect [39m[33m404[39m [90m26 ms - 934[39m
+[info] [35m[HTTP][39m [90m[39m[info] [35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/58339491-5613-4312-9747-d4bd03217687/window/rect[39m
+[info] [35m[HTTP][39m [90m{"x":null,"y":null,"width":1280,"height":720}[39m
+[info] [35m[W3C (58339491)][39m Driver proxy active, passing request on via HTTP proxy
+[debug] [35m[W3C (58339491)][39m Encountered internal error running command: Error: Could not proxy. Proxy error: 'POST /wd/hub/session/58339491-5613-4312-9747-d4bd03217687/window/rect' cannot be proxied to WinAppDriver server because its process is not running (probably crashed). Check the Appium log for more details
+[debug] [35m[W3C (58339491)][39m     at doJwpProxy (C:\Program Files\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\protocol\protocol.js:481:13)
+[debug] [35m[W3C (58339491)][39m     at asyncHandler (C:\Program Files\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\protocol\protocol.js:253:9)
+[info] [35m[HTTP][39m [37m<-- POST /wd/hub/session/58339491-5613-4312-9747-d4bd03217687/window/rect [39m[31m500[39m [90m2 ms - 1057[39m
+[info] [35m[HTTP][39m [90m[39m
+[info] [35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/434b2b14-6c79-4fb6-8d63-03430ea05c0d/window/rect[39m
+[info] [35m[HTTP][39m [90m{"x":null,"y":null,"width":1280,"height":720}[39m
+[info] [35m[W3C (434b2b14)][39m Driver proxy active, passing request on via HTTP proxy
+[debug] [35m[WD Proxy][39m Matched '/wd/hub/session/434b2b14-6c79-4fb6-8d63-03430ea05c0d/window/rect' to command name 'setWindowRect'
+[debug] [35m[WD Proxy][39m Proxying [POST /wd/hub/session/434b2b14-6c79-4fb6-8d63-03430ea05c0d/window/rect] to [POST http://127.0.0.1:4725/wd/hub/session/32313715-2575-40F4-B423-469DAB100CF4/window/rect] with body: {"x":null,"y":null,"width":1280,"height":720}
+[debug] [35m[WinAppDriver][39m ==========================================
+[debug] [35m[WinAppDriver][39m POST /wd/hub/session/32313715-2575-40F4-B423-469DAB100CF4/window/rect HTTP/1.1
+[debug] [35m[WinAppDriver][39m Accept: application/json, */*
+[debug] [35m[WinAppDriver][39m Connection: keep-alive
+[debug] [35m[WinAppDriver][39m Content-Length: 45
+[debug] [35m[WinAppDriver][39m Content-Type: application/json; charset=utf-8
+[debug] [35m[WinAppDriver][39m Host: 127.0.0.1:4725
+[debug] [35m[WinAppDriver][39m User-Agent: appium
+[debug] [35m[WinAppDriver][39m 
+[debug] [35m[WinAppDriver][39m {"x":null,"y":null,"width":1280,"height":720}
+[info] [35m[WD Proxy][39m Got response with status 404: {"status":9,"value":{"error":"unknown command","message":"Command not recognized: POST: /session/32313715-2575-40F4-B423-469DAB100CF4/window/rect"}}
+[debug] [35m[WinAppDriver][39m ### WinAppDriver::CommandHandler::Window::HandleCommandAsMidPoint - Command  is not recognized
+[debug] [35m[WinAppDriver][39m HTTP/1.1 404 Not Found
+[debug] [35m[WinAppDriver][39m Content-Length: 148
+[debug] [35m[WinAppDriver][39m Content-Type: application/json
+[debug] [35m[WinAppDriver][39m 
+[debug] [35m[WinAppDriver][39m {"status":9,"value":{"error":"unknown command","message":"Command not recognized: POST: /session/32313715-2575-40F4-B423-469DAB100CF4/window/rect"}}
+[debug] [35m[W3C][39m Matched W3C error code 'unknown command' to UnknownCommandError
+[info] [35m[HTTP][39m [37m<-- POST /wd/hub/session/434b2b14-6c79-4fb6-8d63-03430ea05c0d/window/rect [39m[33m404[39m [90m6 ms - 934[39m
+[info] [35m[HTTP][39m [90m[39m
+[info] [35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/58339491-5613-4312-9747-d4bd03217687/window/rect[39m
+[info] [35m[HTTP][39m [90m{"x":null,"y":null,"width":1280,"height":720}[39m
+[info] [35m[W3C (58339491)][39m Driver proxy active, passing request on via HTTP proxy
+[debug] [35m[W3C (58339491)][39m Encountered internal error running command: Error: Could not proxy. Proxy error: 'POST /wd/hub/session/58339491-5613-4312-9747-d4bd03217687/window/rect' cannot be proxied to WinAppDriver server because its process is not running (probably crashed). Check the Appium log for more details
+[debug] [35m[W3C (58339491)][39m     at doJwpProxy (C:\Program Files\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\protocol\protocol.js:481:13)
+[debug] [35m[W3C (58339491)][39m     at asyncHandler (C:\Program Files\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\protocol\protocol.js:253:9)
+[info] [35m[HTTP][39m [37m<-- POST /wd/hub/session/58339491-5613-4312-9747-d4bd03217687/window/rect [39m[31m500[39m [90m3 ms - 1057[39m
+[info] [35m[HTTP][39m [90m[39m
+[info] [35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/434b2b14-6c79-4fb6-8d63-03430ea05c0d/window/rect[39m
+[info] [35m[HTTP][39m [90m{"x":null,"y":null,"width":1280,"height":720}[39m
+[info] [35m[W3C (434b2b14)][39m Driver proxy active, passing request on via HTTP proxy
+[debug] [35m[WD Proxy][39m Matched '/wd/hub/session/434b2b14-6c79-4fb6-8d63-03430ea05c0d/window/rect' to command name 'setWindowRect'
+[debug] [35m[WD Proxy][39m Proxying [POST /wd/hub/session/434b2b14-6c79-4fb6-8d63-03430ea05c0d/window/rect] to [POST http://127.0.0.1:4725/wd/hub/session/32313715-2575-40F4-B423-469DAB100CF4/window/rect] with body: {"x":null,"y":null,"width":1280,"height":720}
+[debug] [35m[WinAppDriver][39m ==========================================
+[debug] [35m[WinAppDriver][39m POST /wd/hub/session/32313715-2575-40F4-B423-469DAB100CF4/window/rect HTTP/1.1
+[debug] [35m[WinAppDriver][39m Accept: application/json, */*
+[debug] [35m[WinAppDriver][39m Connection: keep-alive
+[debug] [35m[WinAppDriver][39m Content-Length: 45
+[debug] [35m[WinAppDriver][39m Content-Type: application/json; charset=utf-8
+[debug] [35m[WinAppDriver][39m Host: 127.0.0.1:4725
+[debug] [35m[WinAppDriver][39m User-Agent: appium
+[debug] [35m[WinAppDriver][39m 
+[debug] [35m[WinAppDriver][39m {"x":null,"y":null,"width":1280,"height":720}
+[info] [35m[WD Proxy][39m Got response with status 404: {"status":9,"value":{"error":"unknown command","message":"Command not recognized: POST: /session/32313715-2575-40F4-B423-469DAB100CF4/window/rect"}}
+[debug] [35m[WinAppDriver][39m ### WinAppDriver::CommandHandler::Window::HandleCommandAsMidPoint - Command  is not recognized
+[debug] [35m[WinAppDriver][39m HTTP/1.1 404 Not Found
+[debug] [35m[WinAppDriver][39m Content-Length: 148
+[debug] [35m[WinAppDriver][39m Content-Type: application/json
+[debug] [35m[WinAppDriver][39m 
+[debug] [35m[WinAppDriver][39m {"status":9,"value":{"error":"unknown command","message":"Command not recognized: POST: /session/32313715-2575-40F4-B423-469DAB100CF4/window/rect"}}
+[debug] [35m[W3C][39m Matched W3C error code 'unknown command' to UnknownCommandError
+[info] [35m[HTTP][39m [37m<-- POST /wd/hub/session/434b2b14-6c79-4fb6-8d63-03430ea05c0d/window/rect [39m[33m404[39m [90m6 ms - 934[39m
+[info] [35m[HTTP][39m [90m[39m[info] [35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/58339491-5613-4312-9747-d4bd03217687/window/rect[39m
+[info] [35m[HTTP][39m [90m{"x":null,"y":null,"width":1280,"height":720}[39m
+[info] [35m[W3C (58339491)][39m Driver proxy active, passing request on via HTTP proxy
+[debug] [35m[W3C (58339491)][39m Encountered internal error running command: Error: Could not proxy. Proxy error: 'POST /wd/hub/session/58339491-5613-4312-9747-d4bd03217687/window/rect' cannot be proxied to WinAppDriver server because its process is not running (probably crashed). Check the Appium log for more details
+[debug] [35m[W3C (58339491)][39m     at doJwpProxy (C:\Program Files\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\protocol\protocol.js:481:13)
+[debug] [35m[W3C (58339491)][39m     at asyncHandler (C:\Program Files\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\protocol\protocol.js:253:9)
+[info] [35m[HTTP][39m [37m<-- POST /wd/hub/session/58339491-5613-4312-9747-d4bd03217687/window/rect [39m[31m500[39m [90m2 ms - 1057[39m
+[info] [35m[HTTP][39m [90m[39m
+[info] [35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/434b2b14-6c79-4fb6-8d63-03430ea05c0d/window/rect[39m
+[info] [35m[HTTP][39m [90m{"x":null,"y":null,"width":1280,"height":720}[39m
+[info] [35m[W3C (434b2b14)][39m Driver proxy active, passing request on via HTTP proxy
+[debug] [35m[WD Proxy][39m Matched '/wd/hub/session/434b2b14-6c79-4fb6-8d63-03430ea05c0d/window/rect' to command name 'setWindowRect'
+[debug] [35m[WD Proxy][39m Proxying [POST /wd/hub/session/434b2b14-6c79-4fb6-8d63-03430ea05c0d/window/rect] to [POST http://127.0.0.1:4725/wd/hub/session/32313715-2575-40F4-B423-469DAB100CF4/window/rect] with body: {"x":null,"y":null,"width":1280,"height":720}
+[debug] [35m[WinAppDriver][39m ==========================================
+[debug] [35m[WinAppDriver][39m POST /wd/hub/session/32313715-2575-40F4-B423-469DAB100CF4/window/rect HTTP/1.1
+[debug] [35m[WinAppDriver][39m Accept: application/json, */*
+[debug] [35m[WinAppDriver][39m Connection: keep-alive
+[debug] [35m[WinAppDriver][39m Content-Length: 45
+[debug] [35m[WinAppDriver][39m Content-Type: application/json; charset=utf-8
+[debug] [35m[WinAppDriver][39m Host: 127.0.0.1:4725
+[debug] [35m[WinAppDriver][39m User-Agent: appium
+[debug] [35m[WinAppDriver][39m ### WinAppDriver::CommandHandler::Window::HandleCommandAsMidPoint - Command  is not recognized
+[debug] [35m[WinAppDriver][39m HTTP/1.1 404 Not Found
+[debug] [35m[WinAppDriver][39m Content-Length: 148
+[debug] [35m[WinAppDriver][39m Content-Type: application/json
+[debug] [35m[WinAppDriver][39m 
+[debug] [35m[WinAppDriver][39m {"status":9,"value":{"error":"unknown command","message":"Command not recognized: POST: /session/32313715-2575-40F4-B423-469DAB100CF4/window/rect"}}
+[info] [35m[WD Proxy][39m Got response with status 404: {"status":9,"value":{"error":"unknown command","message":"Command not recognized: POST: /session/32313715-2575-40F4-B423-469DAB100CF4/window/rect"}}
+[debug] [35m[W3C][39m Matched W3C error code 'unknown command' to UnknownCommandError
+[info] [35m[HTTP][39m [37m<-- POST /wd/hub/session/434b2b14-6c79-4fb6-8d63-03430ea05c0d/window/rect [39m[33m404[39m [90m7 ms - 786[39m
+[info] [35m[HTTP][39m [90m[39m
+[info] [35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/58339491-5613-4312-9747-d4bd03217687/element[39m
+[info] [35m[HTTP][39m [90m{"using":"xpath","value":".//*//ComboBox"}[39m
+[debug] [35m[W3C (58339491)][39m Calling AppiumDriver.findElement() with args: ["xpath",".//*//ComboBox","58339491-5613-4312-9747-d4bd03217687"]
+[debug] [35m[BaseDriver][39m Valid locator strategies for this request: xpath, id, name, class name, accessibility id
+[debug] [35m[W3C (58339491)][39m Encountered internal error running command: UnknownError: An unknown server-side error occurred while processing the command. Original error: 'POST /element' cannot be proxied to WinAppDriver server because its process is not running (probably crashed). Check the Appium log for more details
+[debug] [35m[W3C (58339491)][39m     at WADProxy.command (C:\Program Files\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\jsonwp-proxy\proxy.js:274:13)
+[debug] [35m[W3C (58339491)][39m     at processTicksAndRejections (internal/process/task_queues.js:85:5)
+[info] [35m[HTTP][39m [37m<-- POST /wd/hub/session/58339491-5613-4312-9747-d4bd03217687/element [39m[31m500[39m [90m2 ms - 789[39m
+[info] [35m[HTTP][39m [90m[39m[info] [35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/434b2b14-6c79-4fb6-8d63-03430ea05c0d/element[39m
+[info] [35m[HTTP][39m [90m{"using":"xpath","value":".//*//ComboBox"}[39m
+[debug] [35m[W3C (434b2b14)][39m Calling AppiumDriver.findElement() with args: ["xpath",".//*//ComboBox","434b2b14-6c79-4fb6-8d63-03430ea05c0d"]
+[debug] [35m[BaseDriver][39m Valid locator strategies for this request: xpath, id, name, class name, accessibility id
+[debug] [35m[WD Proxy][39m Matched '/element' to command name 'findElement'
+[debug] [35m[WD Proxy][39m Proxying [POST /element] to [POST http://127.0.0.1:4725/wd/hub/session/32313715-2575-40F4-B423-469DAB100CF4/element] with body: {"using":"xpath","value":".//*//ComboBox"}
+[debug] [35m[WinAppDriver][39m ==========================================
+[debug] [35m[WinAppDriver][39m POST /wd/hub/session/32313715-2575-40F4-B423-469DAB100CF4/element HTTP/1.1
+[debug] [35m[WinAppDriver][39m Accept: application/json, */*
+[debug] [35m[WinAppDriver][39m Connection: keep-alive
+[debug] [35m[WinAppDriver][39m Content-Length: 42
+[debug] [35m[WinAppDriver][39m Content-Type: application/json; charset=utf-8
+[debug] [35m[WinAppDriver][39m Host: 127.0.0.1:4725
+[debug] [35m[WinAppDriver][39m User-Agent: appium
+[debug] [35m[WinAppDriver][39m 
+[debug] [35m[WinAppDriver][39m {"using":"xpath","value":".//*//ComboBox"}
+[info] [35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/58339491-5613-4312-9747-d4bd03217687/element[39m
+[info] [35m[HTTP][39m [90m{"using":"xpath","value":".//*//ComboBox"}[39m
+[debug] [35m[W3C (58339491)][39m Calling AppiumDriver.findElement() with args: ["xpath",".//*//ComboBox","58339491-5613-4312-9747-d4bd03217687"]
+[debug] [35m[BaseDriver][39m Valid locator strategies for this request: xpath, id, name, class name, accessibility id
+[debug] [35m[W3C (58339491)][39m Encountered internal error running command: UnknownError: An unknown server-side error occurred while processing the command. Original error: 'POST /element' cannot be proxied to WinAppDriver server because its process is not running (probably crashed). Check the Appium log for more details
+[debug] [35m[W3C (58339491)][39m     at WADProxy.command (C:\Program Files\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\jsonwp-proxy\proxy.js:274:13)
+[debug] [35m[W3C (58339491)][39m     at processTicksAndRejections (internal/process/task_queues.js:85:5)
+[info] [35m[HTTP][39m [37m<-- POST /wd/hub/session/58339491-5613-4312-9747-d4bd03217687/element [39m[31m500[39m [90m1 ms - 789[39m
+[info] [35m[HTTP][39m [90m[39m[info] [35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/58339491-5613-4312-9747-d4bd03217687/element[39m
+[info] [35m[HTTP][39m [90m{"using":"xpath","value":".//*//ComboBox"}[39m
+[debug] [35m[W3C (58339491)][39m Calling AppiumDriver.findElement() with args: ["xpath",".//*//ComboBox","58339491-5613-4312-9747-d4bd03217687"]
+[debug] [35m[BaseDriver][39m Valid locator strategies for this request: xpath, id, name, class name, accessibility id
+[debug] [35m[W3C (58339491)][39m Encountered internal error running command: UnknownError: An unknown server-side error occurred while processing the command. Original error: 'POST /element' cannot be proxied to WinAppDriver server because its process is not running (probably crashed). Check the Appium log for more details
+[debug] [35m[W3C (58339491)][39m     at WADProxy.command (C:\Program Files\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\jsonwp-proxy\proxy.js:274:13)
+[debug] [35m[W3C (58339491)][39m     at processTicksAndRejections (internal/process/task_queues.js:85:5)
+[info] [35m[HTTP][39m [37m<-- POST /wd/hub/session/58339491-5613-4312-9747-d4bd03217687/element [39m[31m500[39m [90m2 ms - 789[39m
+[info] [35m[HTTP][39m [90m[39m
+[info] [35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/58339491-5613-4312-9747-d4bd03217687/element[39m
+[info] [35m[HTTP][39m [90m{"using":"xpath","value":".//*//ComboBox"}[39m
+[debug] [35m[W3C (58339491)][39m Calling AppiumDriver.findElement() with args: ["xpath",".//*//ComboBox","58339491-5613-4312-9747-d4bd03217687"]
+[debug] [35m[BaseDriver][39m Valid locator strategies for this request: xpath, id, name, class name, accessibility id
+[debug] [35m[W3C (58339491)][39m Encountered internal error running command: UnknownError: An unknown server-side error occurred while processing the command. Original error: 'POST /element' cannot be proxied to WinAppDriver server because its process is not running (probably crashed). Check the Appium log for more details
+[debug] [35m[W3C (58339491)][39m     at WADProxy.command (C:\Program Files\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\jsonwp-proxy\proxy.js:274:13)
+[debug] [35m[W3C (58339491)][39m     at processTicksAndRejections (internal/process/task_queues.js:85:5)
+[info] [35m[HTTP][39m [37m<-- POST /wd/hub/session/58339491-5613-4312-9747-d4bd03217687/element [39m[31m500[39m [90m2 ms - 789[39m
+[info] [35m[HTTP][39m [90m[39m[info] [35m[HTTP][39m [37m-->[39m [37mDELETE[39m [37m/wd/hub/session/58339491-5613-4312-9747-d4bd03217687[39m
+[info] [35m[HTTP][39m [90m{}[39m
+[debug] [35m[W3C (58339491)][39m Calling AppiumDriver.deleteSession() with args: ["58339491-5613-4312-9747-d4bd03217687"]
+[debug] [35m[BaseDriver][39m Event 'quitSessionRequested' logged at 1645536500915 (13:28:20 GMT+0000 (Greenwich Mean Time))
+[info] [35m[Appium][39m Removing session 58339491-5613-4312-9747-d4bd03217687 from our master session list
+[debug] [35m[WinAppDriver][39m Deleting WinAppDriver session
+[debug] [35m[BaseDriver][39m Event 'quitSessionFinished' logged at 1645536500915 (13:28:20 GMT+0000 (Greenwich Mean Time))
+[debug] [35m[W3C (58339491)][39m Received response: null
+[debug] [35m[W3C (58339491)][39m But deleting session, so not returning
+[debug] [35m[W3C (58339491)][39m Responding to client with driver.deleteSession() result: null
+[info] [35m[HTTP][39m [37m<-- DELETE /wd/hub/session/58339491-5613-4312-9747-d4bd03217687 [39m[32m200[39m [90m1 ms - 14[39m
+[info] [35m[HTTP][39m [90m[39m
+[info] [35m[HTTP][39m [37m-->[39m [37mDELETE[39m [37m/wd/hub/session/434b2b14-6c79-4fb6-8d63-03430ea05c0d[39m
+[info] [35m[HTTP][39m [90m{}[39m
+[debug] [35m[W3C (434b2b14)][39m Calling AppiumDriver.deleteSession() with args: ["434b2b14-6c79-4fb6-8d63-03430ea05c0d"]
+[debug] [35m[BaseDriver][39m Event 'quitSessionRequested' logged at 1645536500917 (13:28:20 GMT+0000 (Greenwich Mean Time))
+[info] [35m[Appium][39m Removing session 434b2b14-6c79-4fb6-8d63-03430ea05c0d from our master session list
+[debug] [35m[WinAppDriver][39m Deleting WinAppDriver session
+[debug] [35m[WinAppDriver][39m Deleting WinAppDriver server session
+[debug] [35m[WD Proxy][39m Matched '/session/32313715-2575-40F4-B423-469DAB100CF4' to command name 'deleteSession'
+[debug] [35m[WD Proxy][39m Proxying [DELETE /session/32313715-2575-40F4-B423-469DAB100CF4] to [DELETE http://127.0.0.1:4725/wd/hub/session/32313715-2575-40F4-B423-469DAB100CF4] with no body
+[debug] [35m[WinAppDriver][39m ==========================================
+[debug] [35m[WinAppDriver][39m DELETE /wd/hub/session/32313715-2575-40F4-B423-469DAB100CF4 HTTP/1.1
+[debug] [35m[WinAppDriver][39m Accept: application/json, */*
+[debug] [35m[WinAppDriver][39m Connection: keep-alive
+[debug] [35m[WinAppDriver][39m Content-Type: application/json; charset=utf-8
+[debug] [35m[WinAppDriver][39m Host: 127.0.0.1:4725
+[debug] [35m[WinAppDriver][39m User-Agent: appium
+[debug] [35m[WinAppDriver][39m HTTP/1.1 200 OK
+[debug] [35m[WinAppDriver][39m Content-Length: 22
+[debug] [35m[WinAppDriver][39m Content-Type: application/json
+[debug] [35m[WD Proxy][39m Got response with status 200: {"status":0,"value":1}
+[info] [35m[WD Proxy][39m Error: read ECONNRESET
+[info] [35m[WD Proxy][39m     at TCP.onStreamRead (internal/stream_base_commons.js:183:27)
+[debug] [35m[W3C (434b2b14)][39m Encountered internal error running command: UnknownError: An unknown server-side error occurred while processing the command. Original error: Could not proxy command to the remote server. Original error: read ECONNRESET
+[debug] [35m[W3C (434b2b14)][39m     at WADProxy.command (C:\Program Files\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\jsonwp-proxy\proxy.js:274:13)
+[debug] [35m[W3C (434b2b14)][39m     at processTicksAndRejections (internal/process/task_queues.js:85:5)
+[info] [35m[HTTP][39m [37m<-- POST /wd/hub/session/434b2b14-6c79-4fb6-8d63-03430ea05c0d/element [39m[31m500[39m [90m466 ms - 645[39m
+[info] [35m[HTTP][39m [90m[39m
+[info] [35m[WinAppDriver][39m WinAppDriver exited with code null, signal SIGTERM
+[debug] [35m[BaseDriver][39m Event 'quitSessionFinished' logged at 1645536500936 (13:28:20 GMT+0000 (Greenwich Mean Time))
+[debug] [35m[W3C (434b2b14)][39m Received response: null
+[debug] [35m[W3C (434b2b14)][39m But deleting session, so not returning
+[debug] [35m[W3C (434b2b14)][39m Responding to client with driver.deleteSession() result: null
+[info] [35m[HTTP][39m [37m<-- DELETE /wd/hub/session/434b2b14-6c79-4fb6-8d63-03430ea05c0d [39m[32m200[39m [90m20 ms - 14[39m
+[info] [35m[HTTP][39m [90m[39m
+[info] [35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/434b2b14-6c79-4fb6-8d63-03430ea05c0d/element[39m
+[info] [35m[HTTP][39m [90m{"using":"xpath","value":".//*//ComboBox"}[39m
+[debug] [35m[W3C (434b2b14)][39m Encountered internal error running command: NoSuchDriverError: A session is either terminated or not started
+[debug] [35m[W3C (434b2b14)][39m     at asyncHandler (C:\Program Files\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\protocol\protocol.js:243:15)
+[debug] [35m[W3C (434b2b14)][39m     at C:\Program Files\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\protocol\protocol.js:423:15
+[debug] [35m[W3C (434b2b14)][39m     at Layer.handle [as handle_request] (C:\Program Files\Appium Server GUI\resources\app\node_modules\appium\node_modules\express\lib\router\layer.js:95:5)
+[debug] [35m[W3C (434b2b14)][39m     at next (C:\Program Files\Appium Server GUI\resources\app\node_modules\appium\node_modules\express\lib\router\route.js:137:13)
+[debug] [35m[W3C (434b2b14)][39m     at Route.dispatch (C:\Program Files\Appium Server GUI\resources\app\node_modules\appium\node_modules\express\lib\router\route.js:112:3)
+[debug] [35m[W3C (434b2b14)][39m     at Layer.handle [as handle_request] (C:\Program Files\Appium Server GUI\resources\app\node_modules\appium\node_modules\express\lib\router\layer.js:95:5)
+[debug] [35m[W3C (434b2b14)][39m     at C:\Program Files\Appium Server GUI\resources\app\node_modules\appium\node_modules\express\lib\router\index.js:281:22
+[debug] [35m[W3C (434b2b14)][39m     at param (C:\Program Files\Appium Server GUI\resources\app\node_modules\appium\node_modules\express\lib\router\index.js:354:14)
+[debug] [35m[W3C (434b2b14)][39m     at param (C:\Program Files\Appium Server GUI\resources\app\node_modules\appium\node_modules\express\lib\router\index.js:365:14)
+[debug] [35m[W3C (434b2b14)][39m     at Function.process_params (C:\Program Files\Appium Server GUI\resources\app\node_modules\appium\node_modules\express\lib\router\index.js:410:3)
+[debug] [35m[W3C (434b2b14)][39m     at next (C:\Program Files\Appium Server GUI\resources\app\node_modules\appium\node_modules\express\lib\router\index.js:275:10)
+[debug] [35m[W3C (434b2b14)][39m     at logger (C:\Program Files\Appium Server GUI\resources\app\node_modules\appium\node_modules\morgan\index.js:144:5)
+[debug] [35m[W3C (434b2b14)][39m     at Layer.handle [as handle_request] (C:\Program Files\Appium Server GUI\resources\app\node_modules\appium\node_modules\express\lib\router\layer.js:95:5)
+[debug] [35m[W3C (434b2b14)][39m     at trim_prefix (C:\Program Files\Appium Server GUI\resources\app\node_modules\appium\node_modules\express\lib\router\index.js:317:13)
+[debug] [35m[W3C (434b2b14)][39m     at C:\Program Files\Appium Server GUI\resources\app\node_modules\appium\node_modules\express\lib\router\index.js:284:7
+[debug] [35m[W3C (434b2b14)][39m     at Function.process_params (C:\Program Files\Appium Server GUI\resources\app\node_modules\appium\node_modules\express\lib\router\index.js:335:12)
+[debug] [35m[W3C (434b2b14)][39m     at next (C:\Program Files\Appium Server GUI\resources\app\node_modules\appium\node_modules\express\lib\router\index.js:275:10)
+[debug] [35m[W3C (434b2b14)][39m     at C:\Program Files\Appium Server GUI\resources\app\node_modules\appium\node_modules\body-parser\lib\read.js:130:5
+[debug] [35m[W3C (434b2b14)][39m     at invokeCallback (C:\Program Files\Appium Server GUI\resources\app\node_modules\appium\node_modules\raw-body\index.js:224:16)
+[debug] [35m[W3C (434b2b14)][39m     at done (C:\Program Files\Appium Server GUI\resources\app\node_modules\appium\node_modules\raw-body\index.js:213:7)
+[debug] [35m[W3C (434b2b14)][39m     at IncomingMessage.onEnd (C:\Program Files\Appium Server GUI\resources\app\node_modules\appium\node_modules\raw-body\index.js:273:7)
+[debug] [35m[W3C (434b2b14)][39m     at IncomingMessage.emit (events.js:208:15)
+[debug] [35m[W3C (434b2b14)][39m     at endReadableNT (_stream_readable.js:1168:12)
+[debug] [35m[W3C (434b2b14)][39m     at processTicksAndRejections (internal/process/task_queues.js:77:11)
+[info] [35m[HTTP][39m [37m<-- POST /wd/hub/session/434b2b14-6c79-4fb6-8d63-03430ea05c0d/element [39m[33m404[39m [90m2 ms - 3469[39m
+[info] [35m[HTTP][39m [90m[39m
